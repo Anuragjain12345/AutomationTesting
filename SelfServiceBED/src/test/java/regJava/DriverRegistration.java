@@ -47,7 +47,7 @@ public class DriverRegistration {
 				driver.get(url);
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@formcontrolname='firstName']")));
 			} else if (osType.equalsIgnoreCase("Linux")) {
-				System.setProperty("webdriver.firefox.marionette", "src/main/resources/drivers/geckodriver");
+				System.setProperty("webdriver.firefox.marionette", "src/main/resources/drivers/geckodriver23.exe");
 				driver = new FirefoxDriver();
 				WebDriverWait wait = new WebDriverWait(driver, 500);
 				driver.manage().window().maximize();

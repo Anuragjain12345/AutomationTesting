@@ -16,7 +16,7 @@ import org.testng.Reporter;
 public class Reademail {
 		
 		public void detectedlanguage() throws IOException, InterruptedException, InvalidFormatException{
-			String path = System.getProperty("user.dir") + "/src/main/resources/Test_data_Email_UI.xlsx";
+			String path = System.getProperty("user.dir") + "/src/main/resources/Test_Data_Email_UI.xlsx";
 			String sheetName = "Language";
 			DataFormatter df = new DataFormatter();
 			Validatestep2 TC = new Validatestep2();
