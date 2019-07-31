@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Validation_Suite_Fields" parallel="false">
+	<test name="Email">
+		<classes>
+			<class name="regTest.Emailvalidationtest" />
+		</classes>
+	</test>
+	<test name="otherfields">
+		<classes>
+			<class name="regTest.ValidationStep2" />
+		</classes>
+	</test>
+</suite>
