@@ -47,7 +47,7 @@ public class DriverRegistration {
 				driver.get(url);
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@formcontrolname='firstName']")));
 			} else if (osType.equalsIgnoreCase("Linux")) {
-				System.setProperty("webdriver.firefox.marionette", "/src/main/resources/drivers/geckodriver");
+				System.setProperty("webdriver.firefox.marionette", "src/main/resources/drivers/geckodriver");
 				FirefoxProfile ffprofile = new FirefoxProfile();
 				FirefoxOptions option = new FirefoxOptions();
 				ffprofile.setPreference("intl.accept_languages", lan1);
